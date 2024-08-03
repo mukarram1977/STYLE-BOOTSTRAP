@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!---OFFCANVAS START HERE-->           
+  <button class="btn btn-primary mt-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasID">Cleck me</button>
+  <div class="offcanvas offcanvas-top" id="offcanvasID">
+    <div class="offcanvas-header">
+      <h5>monir</h5>
+      <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Hussain Mohammed Mukarram</p>
+    </div>
+  </div>
+  <!---OFFCANVAS END HERE-->  1
+========================================================================== OFFCANVAS END HERE
+<!---TRUNCATION START HERE-->
+  <div class="row mt-5">
+    <div class="col-2 text-truncate ms-5">
+     My name is Hussain Mohammed Mukarram.I live in kishoreganj.
+    </div>
+  </div>
+ <!---TURNCATION END HERE--> 2
+==========================================================================
+<!---TRUNCATION START HERE-->
+  <span class="d-inline-block text-truncate ms-5 mt-5" style="max-width: 150px;">
+    My name is Hussain Mohammed Mukarram.I live in kishoreganj.
+  </span>
+  <!---TRUNCATION END HERE-->    3
+=============================================================================
+  <!---V-STACK START HERE-->
+  <div class="container">
+    <div class="vstact gap-4 mt-5">
+      <div class="bg-info border">monir</div>
+      <div class="bg-danger border">monir</div>
+      <div class="bg-success border">monir</div>
+    </div>
+  </div>
+
+ <!---V-STACK END HERE-->    4
+===============================================================================
+  <!---H-STACK START HERE-->
+  <div class="hstack mt-5">
+    <div class="bg-danger border-3 ms-3 p-2">monir</div>
+    <div class="bg-info border-3 ms-5 p-2">mukarram</div>
+    <div class="bg-success border-3 ms-5 p-2">mukaddim</div>
+  </div>
+  <!---H-STACK END HERE-->  5
+====================================================================================<!
+---H-STACK BUTTON START HERE-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 mt-5">
+        <div class="hstack gap-3">
+          <input type="text" class="form-control bg-light" placeholder="enter your name"></input>
+          <button class="btn btn-success">submit</button>
+          <div class="vr"></div>
+          <div class="btn btn-danger">reset</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---H-STACK BUTTON END HERE-->  6
+============================================================================== 6
+  <!---ACCORDION START HERE-->
+  <div class="container
+  mt-5 mb-5">
+    <div class="accordion">
+      <div class="accordion-item">
+        <h2  class="accordion-button" data-bs-target="#item1" data-bs-toggle="collapse">Hussain Mohammed Mukarram</h2>
+        <div class="accordion-collapse collapse show" id="item1">
+          <div class="accordion-body">
+            <p class="text-success">My name is hussain mohammed mukarram.I am a new web-developer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2  class="accordion-button" data-bs-target="#item2" data-bs-toggle="collapse">Farzana Akhter</h2>
+        <div class="accordion-collapse collapse" id="item2">
+          <div class="accordion-body">
+            <p class="text-danger">My name is Farzana Akhter Puspo. I am a school teacher.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2  class="accordion-button" data-bs-target="#item3" data-bs-toggle="collapse">Mehrima Jahin Eusha</h2>
+        <div class="accordion-collapse collapse" id="item3">
+          <div class="accordion-body">
+            <p class="text-warning">My name is mehrima Jahin Eusha.I am a student.I read in class two.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2  class="accordion-button" data-bs-target="#item4" data-bs-toggle="collapse">Mayeem Hussain Azan</h2>
+        <div class="accordion-collapse collapse" id="item4">
+          <div class="accordion-body">
+            <p class="text-info">My name is Mayeem Hussain Azan.I am a student.I read in class one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---ACCORDION END HERE-->  7 
+========================================================================= 7
+  <!--- STRETCHED LINK START HERE-->
+  <div class="card" style="width: 18rem;">
+    <img src="https:// " alt="" class="card-img-top">
+    <div class="card-body">
+      <h2>Hussain Mohammed Mukarram</h2>
+      <p>My name is Hussain Mohammed Mukarram.I am a new web-developer.</p>
+      <a class="btn btn-primary stretched-link" href="https//: stretched-link/">Read more</a>
+    </div>
+  </div>
+<!--- STRETCHED LINK END HERE-->   
+============================================================================== 8
+<!---VERTICAL RULE START HERE-->
+<div class="container mt-5 mb-5">
+  <div class="d-flex text-danger" style="height: 200px;">
+    <div class="vr"></div>
+  </div>
+</div>
+<!---VERTICAL RULE START HERE-->  
+================================================================================ 9
+
+<!--- COLLAPSE START HERE-->
+<button class="btn btn-primary ms-5 mt-5" data-bs-toggle="collapse" data-bs-target="#collapseID">click me</button>
+<div style="min-height: 120px;">
+  <div class="collapse" id="collapseID">
+    <div class="card card-body mb-5">
+      <p>My name is Hussain Mohammed Mukarram. I am a new web-developer.</p>
+    </div>
+  </div>
+</div>
+================================================================ 10
+<button class="btn btn-primary ms-5 mt-5" data-bs-toggle="collapse" data-bs-target="#collapseID1">click me</button>
+<div style="min-height: 120px;">
+  <div class="collapse" id="collapseID1">
+    <div class="card card-body mb-5" style="width: 300PX;">
+      <p>My name is Hussain Mohammed Mukarram. I am a new web-developer.</p>
+    </div>
+  </div>
+</div>
+
+======================================================  11
+<button class="btn btn-primary " data-bs-toggle="collapse" data-bs-target="#collapseID2">click me</button>
+<div style="min-height: 120px;">
+  <div class="collapse collapse-horizontal" id="collapseID2">
+    <div class="card card-body ">
+      <p>My name is Hussain Mohammed Mukarram. I am a new web-developer.</p>
+    </div>
+  </div>
+</div>
+<!--- COLLAPSE END HERE-->
+================================================================================ 12
+<div class="my mt-5 mb-5 ms-5 bg-success">
+  <div class="carouseleID" style="width: 150px; height: 200px;">monir</div>
+</div>
+<button class="carousel-control-prev" data-bs-target="#carouselID" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+    
+<button class="carousel-control-next" data-bs-target="#carouselID" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+===============================================================================13
+<button class="btn-close m-auto"></button>
+================================================================================14
+
+<!---PAGINATION START HERE-->
+<ul class="pagination ms-5">
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">Previous</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">1</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">2</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">3</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">4</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">5</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">6</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">7</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">8</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">9</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">10</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">11</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">12</a>
+  </li>
+  <li class="page-item">
+    <a href="" class="page-link bg-info text-light" id="style">Next</a>
+  </li>
+</ul>
+<!---PAGINATION END HERE-->
+======================================================================== 15
+<!---FIGURE START HERE-->
+<div class="figure  mt-5 mb-5 ms-5">
+  <img src="a.jpg" class="figure-img rounded img-thumbnail" alt="" style="width: 200px;height:200px">
+  <figcaption class="figure-caption">Myeem Hussain Azan</figcaption>
+</div>
+
+<div class="mt-5 mb-5 ms-5">
+  <img src="a.jpg" alt="" style="width: 200px;height:200px">
+  <p>Myeem Hussain Azan</p>
+</div>
+<!--FIGURE END HERE-->
+========================================================================16
+<!---SPINNER START HERE-->
+<div class="container mt-5 mb-5">
+  <div class="spinner-border text-danger"></div>
+  <div class="spinner-border text-info"></div>
+  <div class="spinner-border text-dark"></div>
+  <div class="spinner-border text-success"></div>
+  <div class="spinner-border text-warning"></div>
+  <div class="spinner-border text-primary"></div>
+  <div class="spinner-border text-secondary"></div>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div class="spinner-grow text-danger"></div>
+  <div class="spinner-grow text-info"></div>
+  <div class="spinner-grow text-dark"></div>
+  <div class="spinner-grow text-success"></div>
+  <div class="spinner-grow text-warning"></div>
+  <div class="spinner-grow text-primary"></div>
+  <div class="spinner-grow text-secondary"></div>
+</div>
+<!---SPINNER END HERE-->
+=======================================================================17
+<!---RANG START HERE-->
+<div class="rang mt-5 mb-5">
+  <label for="range" class="form-label ">Range</label>
+  <input type="range" class="form-range">
+</div>
+
+<div class="rang mt-5 mb-5">
+  <label for="range" class="form-label ">Range</label>
+  <input type="range" class="form-range" min="1" max="10">
+</div>
+<!---SPINNER END HERE-->
+===========================================================================18
+<!---PROGRESS START HERE-->
+<div class="progress mt-5 mb-5">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%;">30%</div>
+</div>
+<div class="progress mt-5 mb-5">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 60%;">60%</div>
+</div>
+<div class="progress mt-5 mb-5">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 70%;">70%</div>
+</div>
+<div class="progress mt-5 mb-5">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%;">95%</div>
+</div>
+<!---PROGRESS END HERE-->
+======================================================================19
+<!----DROPDOWN START HERE-->
+<div class="dropdown mt-5 mb-5">
+  <button class="btn-btn-primary dropdown-toggle" data-bs-toggle="dropdown">Click me</button>
+  <ul class="dropdown-menu">
+    <li><a href="" class="dropdown-item">Home</a></li>
+    <li><a href="" class="dropdown-item">About us</a></li>
+    <li><hr href="" class="dropdown-divier"></a></li>
+    <li><a href="" class="dropdown-item">Service</a></li>
+  </ul>
+</div>
+
+<div class="btn-group dropup" style="margin-top:150px ;">
+  <button class="btn-btn-info dropdown-toggle" data-bs-toggle="dropdown">Click me</button>
+  <ul class="dropdown-menu">
+    <li><a href="" class="dropdown-item">Home</a></li>
+    <li><a href="" class="dropdown-item">About us</a></li>
+    <li><hr href="" class="dropdown-divier"></a></li>
+    <li><a href="" class="dropdown-item">Service</a></li>
+  </ul>
+</div>
+<!----DROPDOWN END HERE-->
+=========================================================================20
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
